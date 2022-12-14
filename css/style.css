@@ -37,6 +37,21 @@
     background-color: blue;
 }
 
+.sections{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    /* debug */
+    /* height: 200px; */
+    border: 2px solid red;
+}
+
+.head-section{
+    width: 100%;
+    border: 2px solid black;
+    /* padding: 1rem 0rem; */
+}
+
 /* MAIN */
 .jumbotron{
     display: flex;
@@ -47,9 +62,10 @@
     border: 2px solid red;
 }
 .jumbotron h1{
+    width: 100%;
     text-align:left;
-    font-size:65px;
-    padding: 1rem 15rem;
+    /* font-size:65px; */
+    /* padding: 1rem 15rem; */
     /* debug */
     /* background-color:yellow; */
     border: 5px solid black;
@@ -110,3 +126,5 @@
 .recap-plane{
     border: 3px solid black;
 }    
+
+
