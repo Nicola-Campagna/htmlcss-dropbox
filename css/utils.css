@@ -22,13 +22,16 @@ a{
 
 /* big container */
 .b-container {
-	max-width: 1400px;
+	width: 1400px;
 	margin: 0 auto;
+	/* debug */
+	/* height: 200px; */
+	background-color: green;
 }
 
 /* small-container */
 .s-container{
-	max-width: 1000px;
+	width: 1000px;
 	margin: 0 auto;
 }
 

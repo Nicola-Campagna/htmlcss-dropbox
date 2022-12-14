@@ -1,3 +1,4 @@
+
 /* HEADER */
 
 .head{
@@ -21,4 +22,47 @@
 .head-right ul li,
 .head-left ul li{
     padding: 1rem;
+}
+
+
+/* SECTIONS */
+
+.section,
+.section-blue{
+    
+}
+
+.section-blue{
+    background-color: blue;
+
+}
+
+/* MAIN */
+.jumbotron{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    /* debug */
+    /* height: 200px; */
+    border: 2px solid red;
+}
+.jumbotron h1{
+    text-align:left;
+    font-size:65px;
+    padding: 1rem 15rem;
+    
+}
+/* RIGHT/LEFT */
+.w-60{
+    width: 60%;
+    /* debug */
+    background-color: red;
+    border: 5px dotted black;
+}
+
+.w-40{
+    width: 40%;
+    /* debug */
+    background-color: green;
+    border: 5px dotted black;
 }
