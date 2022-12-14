@@ -6,6 +6,18 @@
 	--space-xl: 50px;
 }
 
+
+/* UTILS */
+
+ul li{
+	list-style: none;
+	display: inline;
+}
+
+a{
+	text-decoration: none;
+	color: inherit;
+}
 /* CONTAINER */
 
 /* big container */

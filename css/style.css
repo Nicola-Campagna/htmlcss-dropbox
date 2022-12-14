@@ -1,0 +1,24 @@
+/* HEADER */
+
+.head{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height:5rem;
+
+    /* debug */
+    background-color: aqua;
+}
+
+.head>div{
+    padding: .5rem;
+    /* debug */
+    /* height: 35px; */
+    background-color: red;
+    border: 1px solid black;
+}
+
+.head-right ul li,
+.head-left ul li{
+    padding: 1rem;
+}
