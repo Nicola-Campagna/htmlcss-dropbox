@@ -13,7 +13,7 @@
     width: 100%;
     z-index: 1;
     /* debug */
-    background-color: aqua;
+    background-color:white
 }
 
 .head>ul li{
@@ -43,8 +43,8 @@
 }
 
 .section-blue{
-    padding-top: 9rem;
-    background-color: blue;
+    padding-top: 7rem;
+    background-color:#B4D0E7;
 }
 
 .team-section{
@@ -68,26 +68,16 @@
     display: flex;
     flex-wrap: wrap;
     justify-content: flex-start;
-    /* margin-bottom: 10rem; */
     background-color:#B4D0E7;
-    /* justify-content: center; */
-    /* debug */
-    /* height: 500px; */
-    /* width: 50%; */
-    border: 2px solid red;
+   
+    /* border: 2px solid red; */
 }
 .jumbotron h1{
     width: 100%;
     font-size: 80px;
     padding:2rem 8rem 0rem 0rem;
-    /* font-size:100px; */
-    /* padding-bottom:3rem; */
-    /* height:auto; */
-    /* text-align:left; */
-    /* padding: 0rem; */
-    /* debug */
-    /* background-color:yellow; */
-    border: 5px solid black;
+   
+    /* border: 5px solid black; */
 }
 
 .jumbotron div.w-25>:first-child{
@@ -105,15 +95,15 @@
     width: 75%;
     /* height:500px; */
     /* debug */
-    background-color: red;
-    border: 5px dotted black;
+    /* background-color: red; */
+    /* border: 5px dotted black; */
 }
 
 .w-25{
     width: 25%;
     /* debug */
-    background-color: green;
-    border: 5px dotted black;
+    /* background-color: green;
+    border: 5px dotted black; */
 }
 
 /* Fatture */
