@@ -38,10 +38,12 @@
 .section{
     /* debug */
     background-color: chocolate;
+    padding-top: 9rem;
+
 }
 
 .section-blue{
-    padding-top: 5.5rem;
+    padding-top: 9rem;
     background-color: blue;
 }
 
@@ -66,7 +68,7 @@
     display: flex;
     flex-wrap: wrap;
     justify-content: flex-start;
-    margin-bottom: 10rem;
+    /* margin-bottom: 10rem; */
     background-color:#B4D0E7;
     /* justify-content: center; */
     /* debug */
