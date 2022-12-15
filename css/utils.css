@@ -1,11 +1,19 @@
-:root {
-	--space-xs: 5px;
-	--space-sm: 10px;
-	--space-md: 15px;
-	--space-lg: 25px;
-	--space-xl: 50px;
+/* CONTAINER */
+
+/* big container */
+.b-container {
+	width: 1400px;
+	margin: 0 auto;
+	/* debug */
+	/* height: 200px; */
+	background-color: green;
 }
 
+/* small-container */
+.s-container{
+	width: 1200px;
+	margin: 0 auto;
+}
 
 /* UTILS */
 
@@ -27,29 +35,22 @@ a{
 	margin-bottom: 3rem;
 	/* debug ? */
     width: 60%;
-
-}
-/* CONTAINER */
-
-/* big container */
-.b-container {
-	width: 1400px;
-	margin: 0 auto;
-	/* debug */
-	/* height: 200px; */
-	background-color: green;
-}
-
-/* small-container */
-.s-container{
-	width: 1000px;
-	margin: 0 auto;
+	
 }
 
 .clearfix::after {
 	content: '';
 	clear: both;
 	display: table;
+}
+
+/* ROOT */
+:root {
+	--space-xs: 5px;
+	--space-sm: 10px;
+	--space-md: 15px;
+	--space-lg: 25px;
+	--space-xl: 50px;
 }
 
 /* PADDING */

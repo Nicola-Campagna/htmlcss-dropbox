@@ -67,6 +67,7 @@
     display: flex;
     flex-wrap: wrap;
     justify-content: flex-start;
+    margin-bottom: 10rem;
     background-color:#B4D0E7;
     /* justify-content: center; */
     /* debug */
@@ -116,49 +117,47 @@
 
 /* Fatture */
 .fatture{
+    display: flex;
+    justify-content:space-between;
+    flex-wrap: wrap;
     /* debug */
-    height: 80px;
+    /* height: 80px; */
     border: 4px solid black;
 }
-.fatture div.radio{
-    display: inline;
+
+.fatture>h2{
+    width: 100%;
+    font-size: 40px;
+    margin-bottom: 40px;
 }
 
-/* Planeboard */
-.planeboard{
-    display: flex;
-    justify-content: space-between;
-    /* flex-wrap: wrap; */
-    flex-grow:0;
-    gap: 1rem;
-    /* debug */
-    height: 400px;
-    border: 3px dotted green;
+.fatture>div.radio{
+    width: 100%;
+    font-size: 20px;
+    /* margin-right:20px; */
 }
 
-.planeboard div.col-planeboard{
-    display: flex;
-    /* justify-content: center; */
-    flex-wrap: wrap;
-    flex-direction: column;
-    width: calc(100%/3 - 1rem);
-    /* debug */
-    height: 400px;
-    border: 4px solid red;
+/* PLANE SECTION */
+.col-plane{
+    border: 1px solid black;
+    width: 25%;
+    text-align: center;
 }
 
-.title-plane{
-    border: 3px solid black;
+.user-plane{
+    border: 1px solid black;
+
 }
 
 .type-plane{
-    border: 3px solid black;
+    margin-top: 20px;
+
+
 }
 
-.recap-plane{
-    border: 3px solid black;
-} 
-
-
-
+.col-plane ul li{
+    display:block;
+    text-align: left;
+    margin-left: 20px;
+}
 
