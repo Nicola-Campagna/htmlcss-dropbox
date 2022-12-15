@@ -210,3 +210,19 @@
 /* .faq hr{
     width: 60%;
 } */
+
+
+/* SECTION FOOT-NAV */
+
+.foot-nav{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    /* debug */
+    height: 600px;
+}
+
+.title-nav ul li{
+    display: block;
+}
+
