@@ -18,6 +18,17 @@ a{
 	text-decoration: none;
 	color: inherit;
 }
+
+.btn{
+	/* text-align: center; */
+	color: white;
+    background-color: blue;
+    padding: 10px;
+	margin-bottom: 3rem;
+	/* debug ? */
+    width: 60%;
+
+}
 /* CONTAINER */
 
 /* big container */
