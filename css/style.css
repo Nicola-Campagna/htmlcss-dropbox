@@ -312,10 +312,22 @@ h3{
     justify-content: space-between;
     flex-wrap: wrap;
     /* debug */
-    height: 600px;
+    /* height: 600px; */
+    background-color: black;
 }
 
-.title-nav ul li{
+.title-nav{
+    padding-top:60px ;
+    color:white ;
+    margin-bottom: 40px;
+}
+
+.title-nav ul li a{
     display: block;
+    margin: 20px 0;
+}
+
+.title-nav hr{
+    margin: 50px 0;
 }
 
