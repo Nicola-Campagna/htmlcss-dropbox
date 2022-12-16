@@ -28,13 +28,14 @@ a{
 }
 
 .btn{
-	/* text-align: center; */
+	text-align: center;
 	color: white;
     background-color: blue;
     padding: 10px;
 	margin-bottom: 3rem;
+	margin-right: 15px;
 	/* debug ? */
-    width: 60%;
+    /* width: 60%; */
 	
 }
 

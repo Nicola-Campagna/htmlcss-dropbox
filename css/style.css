@@ -1,4 +1,11 @@
+h3{
+    font-size: 25px;
+    margin: 15px 0;
+}
 
+.marg-15{
+    margin-left: 15px;
+}
 /* HEADER */
 
 .head{
@@ -53,16 +60,29 @@
     flex-wrap: wrap;
     /* debug */
     /* height: 400px; */
-    border: 2px solid red;
+    border: 1px solid grey;
+
 }
 
-.team-section h4{
+.team-section .title-team{
     width: 100%;
     text-align: center;
-    font-size: 25px;
+    font-size: 20px;
     padding:10px;
+    border: 1px solid grey;
 }
 
+.title-team h4{
+    display: inline-block;
+}
+
+.w-75 .marg-15>div{
+    margin-bottom: 40px;
+}
+
+.team-section .w-25 div.btn{
+    margin-top: 15px;
+}
 /* Jumbotron */
 .jumbotron{
     display: flex;
@@ -91,12 +111,14 @@
     right: 2rem;
 }
 /* RIGHT/LEFT */
+
+
 .w-75{
     width: 75%;
     /* height:500px; */
     /* debug */
     /* background-color: red; */
-    /* border: 5px dotted black; */
+   /* border: 5px dotted black; */
 }
 
 .w-25{
@@ -106,51 +128,97 @@
     border: 5px dotted black; */
 }
 
-/* Fatture */
-.fatture{
+
+
+/* Section Planeboard */
+.planeboard{
     display: flex;
     justify-content:space-between;
     flex-wrap: wrap;
     /* debug */
     /* height: 80px; */
-    border: 4px solid black;
+    /* border: 4px solid black; */
 }
 
-.fatture>h2{
+.planeboard>h2{
     width: 100%;
-    font-size: 40px;
+    font-size: 60px;
     margin-bottom: 40px;
 }
 
-.fatture>div.radio{
+.planeboard>div.radio{
     width: 100%;
     font-size: 20px;
+    margin-bottom: 40px;
     /* margin-right:20px; */
+}
+
+.radio-btn{
+    color: white;
+    background-color: blue;
+    border-radius: 50%;
+    padding: 2px;
 }
 
 /* PLANE SECTION */
 .col-plane{
     border: 1px solid black;
-    width: 25%;
-    text-align: center;
+    width: 30%;
 }
 
 .user-plane{
     border: 1px solid black;
+    border-top: 0;
+    text-align: center;
+    padding: 1rem 0;
 
 }
 
 .type-plane{
     margin-top: 20px;
-
-
+    margin-left: 15px;
 }
 
 .col-plane ul li{
     display:block;
-    text-align: left;
-    margin-left: 20px;
+    padding: 15px 0 20px 0;
 }
+
+.recap-plane{
+    margin-left: 15px;
+}
+
+.planeboard h3{
+    font-size: 25px;
+    padding: 10px 0;
+}
+.planeboard h4{
+    font-size:18px ;
+}
+
+.type-plane>div:first-of-type{
+    color: lightgray;
+    margin: 10px 0;
+}
+/* .type-plane>div a{
+    text-decoration: initial;
+    color: initial;
+} */
+
+.type-plane hr{
+    margin: 20px 15px 20px  0;
+}
+
+.recap-plane h5{
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+
+.recap-plane ul li>:first-of-type{
+    color: blue;
+
+}
+/* SECTION TEAM */
 
 /* CARDS */
 .cards{
