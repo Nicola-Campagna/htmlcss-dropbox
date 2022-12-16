@@ -83,6 +83,32 @@ h3{
 .team-section .w-25 div.btn{
     margin-top: 15px;
 }
+
+/* DROPBOX */
+.drop-section{
+    display: flex;
+    justify-content:center;
+    flex-wrap: wrap;
+    /* debug */
+    /* height: 400px; */
+    /* border: 1px solid grey; */
+
+}
+.drop-section .w-75 img{
+    width: 95%;
+}
+
+.drop-section .w-25 .btn-partner{
+    width: 60%;
+    background-color: white;
+    color:black;
+    border: 3px 3px 1px 3px solid black;
+    margin-top: 40px;
+}
+.dropbox{
+    padding: 80px 0;
+}
+
 /* Jumbotron */
 .jumbotron{
     display: flex;
