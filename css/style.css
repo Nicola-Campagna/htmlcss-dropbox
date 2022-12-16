@@ -298,6 +298,17 @@ h3{
     justify-content: flex-start;
     flex-flow: column wrap;
     border: 2px solid black;
+    /* height: 400px; */
+}
+
+.faq>div{
+     position: relative;
+    font-size: 20px;
+    margin: 40px 0;
+}
+.faq h3{
+    font-size: 35px;
+    margin-bottom: 50px;
 }
 
 /* .faq hr{
