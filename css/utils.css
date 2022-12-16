@@ -45,6 +45,32 @@ a{
 	display: table;
 }
 
+/* color */
+.red{
+	background-color: red;
+}
+
+.brown{
+	background-color: brown;
+}
+
+.blue{
+	background-color: blue;
+}
+
+.yellow{
+	background-color: yellow;
+}
+
+.green{
+	background-color: green;
+	border: 20px solid lightgreen;
+}
+
+.celeste{
+	background-color: lightskyblue;
+}
+
 /* ROOT */
 :root {
 	--space-xs: 5px;
