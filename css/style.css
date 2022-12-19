@@ -13,7 +13,7 @@ h3{
     justify-content: space-between;
     align-items: center;
 
-    height:5rem;
+    /* height:5rem; */
     line-height: 5rem;
 
     position: fixed;
@@ -28,6 +28,8 @@ h3{
     vertical-align: middle;
     /* debug */
     /* border:1px solid black; */
+    transition: all 0.1s linear;
+
 }
 .head>ul li img{
     vertical-align: middle;
@@ -40,12 +42,10 @@ h3{
     padding: 10px 15px;
 }
 
-.haed:hover{
-    box-shadow: ;
-    z-index:100;
-    width: 100%;
-
+.head ul li:hover{
+    box-shadow:0px 2px blue
 }
+
 /* MAIN */
 
 /* Sections */
@@ -109,7 +109,7 @@ h3{
     width: 60%;
     background-color: white;
     color:black;
-    border: 3px 3px 1px 3px solid black;
+    border: 3px solid black;
     margin-top: 40px;
 }
 .dropbox{
@@ -360,7 +360,7 @@ h3{
 }
 
 .title-nav{
-    padding-top:60px ;
+    /* padding-top:60px; */
     color:white ;
     margin-bottom: 40px;
 }

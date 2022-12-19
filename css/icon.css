@@ -4,7 +4,13 @@
     margin-top: 7rem;
     position: relative;
     top: 70px;
+    transition: all 0.1s linear;
 
+}
+
+.fa-arrow-down:active{
+   color: red; 
+   
 }
 
 .fa-angle-down{
@@ -12,3 +18,4 @@
     top: 0;
     right: 100px;
 }
+
